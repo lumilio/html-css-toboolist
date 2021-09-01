@@ -68,7 +68,21 @@ hr{
 }
 
 .pulsanti{
-    margin-bottom: 50px;
+    margin-bottom: 35px;
+}
+
+#button1 , #button2 {
+
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+.subtext{
+    margin-top: 20px;
 }
 
 #button1{
@@ -85,29 +99,47 @@ hr{
 } 
 
 #button3 , #button4 , #button5 , #button6 , #button7 , #button8 , #button9 , #button10 , #button11 {
-    padding: 5px 7px;
+    padding:  5px 7px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
     border-radius: 15px;
+}
+
+#button3 , #button4 , #button11 {
     background-color: #47adf1;
     color: white; 
-    border: 1px solid #47adf1;
+} 
+
+#button5{
+    background-color: #7df147;
+    color: white; 
 }
 
-#button1 , #button2 {
-
-    padding: 10px 17px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    border-radius: 8px;
+#button6{
+    background-color: #f14747;
+    color: white; 
 }
 
-.subtext{
-    margin-top: 20px;
+#button7{
+    background-color: #c947f1;
+    color: white; 
+}
+
+#button8{
+    background-color: #6ff147;
+    color: white; 
+}
+
+#button9{
+    background-color: #f1a247;
+    color: white; 
+}
+
+#button10{
+    background-color: #321dee;
+    color: white; 
 }
 
 p, h2{
