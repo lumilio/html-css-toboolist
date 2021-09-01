@@ -61,3 +61,35 @@ h1{
     margin-left: 70px;
     margin-top: 25px;
 }
+
+.pulsanti{
+    margin-bottom: 80px;
+}
+
+#button1{
+    background-color: #47adf1;
+    color: white; 
+    border: 1px solid #47adf1;
+}  
+
+#button2{
+    background-color: white;
+    color: #a0a7aa; 
+    border: 1px solid #a0a7aa;
+
+} 
+
+#button1 , #button2 {
+
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+
+.subtext{
+    margin-top: 30px;
+}
