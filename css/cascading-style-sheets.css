@@ -16,7 +16,7 @@ h1{
 
 .banner{
     width: 100%;
-    height: 110px;
+    height: 85px;
     background-color: white;
 /*     position: relative; */
 }
@@ -28,7 +28,7 @@ h1{
 .title img, .title h1{
     display:inline-block;
     vertical-align:middle;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 #logo{
@@ -36,3 +36,20 @@ h1{
 }
 
 
+
+
+
+
+
+/* contenuto principale */
+
+
+
+
+.mainbox{
+    border: 1px solid black;
+    width: 990px;
+    height: 500px;  
+    margin: auto;
+    margin-top: 50px;
+}
