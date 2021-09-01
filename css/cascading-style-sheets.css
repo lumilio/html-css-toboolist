@@ -44,7 +44,6 @@ h1{
 
 
 .mainbox{
-    
     border-radius: 10px;
     width: 990px;
     height: 630px;  
@@ -62,6 +61,7 @@ h1{
 
 .pulsanti{
     margin-bottom: 35px;
+    border: 1px  #f6f8f9;
 }
 
 #button1 , #button2 {
@@ -88,7 +88,6 @@ h1{
     background-color: white;
     color: #a0a7aa; 
     border: 1px solid #a0a7aa;
-
 } 
 
 #button3 , #button4 , #button5 , #button6 , #button7 , #button8 , #button9 , #button10 , #button11 {
@@ -132,9 +131,4 @@ h1{
 
 p, h2{
     padding: 7px;
-}
-
-hr{
-    border: 1px solid /* #f6f8f */red;
-    position: absolute;
 }
