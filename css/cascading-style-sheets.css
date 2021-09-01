@@ -63,7 +63,7 @@ h1{
 }
 
 .pulsanti{
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 #button1{
@@ -89,7 +89,15 @@ h1{
     border-radius: 8px;
 }
 
-
 .subtext{
     margin-top: 30px;
+}
+
+p, h2{
+    padding: 7px;
+}
+
+hr{
+    border: 1px solid /* #f6f8f */red;
+    position: absolute;
 }
