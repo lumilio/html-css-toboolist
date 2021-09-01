@@ -85,12 +85,15 @@ hr{
 } 
 
 #button3 , #button4 , #button5 , #button6 , #button7 , #button8 , #button9 , #button10 , #button11 {
-    padding: 3px 3px;
+    padding: 5px 7px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
     border-radius: 15px;
+    background-color: #47adf1;
+    color: white; 
+    border: 1px solid #47adf1;
 }
 
 #button1 , #button2 {
