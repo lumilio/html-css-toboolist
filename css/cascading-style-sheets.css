@@ -35,7 +35,12 @@ h1{
 }
 
 
+hr{
+    position: absolute;
+    border: 1px solid red;
 
+
+}
 
 
 
@@ -63,7 +68,7 @@ h1{
 }
 
 .pulsanti{
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #button1{
@@ -79,6 +84,15 @@ h1{
 
 } 
 
+#button3 , #button4 , #button5 , #button6 , #button7 , #button8 , #button9 , #button10 , #button11 {
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 15px;
+}
+
 #button1 , #button2 {
 
     padding: 10px 17px;
@@ -90,7 +104,7 @@ h1{
 }
 
 .subtext{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 p, h2{
