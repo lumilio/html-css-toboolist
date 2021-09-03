@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F8F9;
+    font-family: 'Poppins', sans-serif;
+}
+/* style barra  logo e titolo */
+header {
+    background-color: white;
+    height: 73px;
+    position: relative;
+}
+
+header .logo {
+    display: inline-block;
+    height: 100%;
+    line-height: 73px;
+    padding-left: 20px;
+}
+
+header .logo img {
+    vertical-align: middle;
+}
+
+header .logo h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+/* /style barra logo e titolo */
+
+#mainContainer {
+    width: 70vw;
+    margin: auto;
+    background-color: white;
+    margin-top: 3rem;
+    border-radius: 10px;
+} 
+
+/* style add task/section buttons */
+#buttons {
+    padding: 14px 42px 6px 42px;
+    border-bottom: 2px solid #F6F8F9;
+}
+
+#buttons .addTask {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: #45ABEA;
+    margin-right: 2px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+#buttons .addSection {
+    border: 1px solid lightgray;
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: lightgray;
+    margin-right: 2px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+/* /style add task/section buttons */
+
+/* style section NEW TASK */
+#newTask {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+#newTask h2 {
+    padding-bottom: 10px;
+}
+
+#newTask h2 span {
+    font-size: 15px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#newTask .checkmark {
+    font-weight: bold;
+    color: #ACE0D5;
+    border: 1px solid #ACE0D5;
+    border-radius: 50%;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#newTask p {
+    display: inline-block;
+}
+
+#newTask p span {
+    background-color: #45ABEA;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 21px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+/* /style section NEW TASK */
+
+/* style section TODAY */
+#today {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+#today h2 {
+    padding-bottom: 10px;
+}
+
+#today h2 span {
+    font-size: 15px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#today .checkmark {
+    font-weight: bold;
+    color: #ACE0D5;
+    border: 1px solid #ACE0D5;
+    border-radius: 50%;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#today p {
+    display: inline-block;
+}
+
+#today p span {
+    color: white;
+    padding: 5px 9px;
+    border-radius: 21px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+#today .recruiting p span {
+    background-color: #45ABEA;
+}
+
+#today .listItem {
+    margin-bottom: 25px;
+}
+
+#today .mobile p span{
+    background-color: #9C72E4;
+}
+
+#today .interview p span {
+    background-color: #64C0A9;
+}
+
+#today .interview .checkmark {
+    color: red;
+    border-color: red;
+}
+
+#today .summit p span {
+    background-color: #F29E33;
+}
+
+#today .summit {
+    margin-bottom: 0;
+}
+/* /style section TODAY */
+
+/* style section UPCOMING */
+#upcoming {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+#upcoming h2 {
+    padding-bottom: 10px;
+}
+
+#upcoming h2 span {
+    font-size: 15px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#upcoming .checkmark {
+    font-weight: bold;
+    color: #ACE0D5;
+    border: 1px solid #ACE0D5;
+    border-radius: 50%;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#upcoming p {
+    display: inline-block;
+}
+
+#upcoming p span {
+    color: white;
+    padding: 5px 9px;
+    border-radius: 21px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+#upcoming .listItem {
+    margin-bottom: 25px;
+}
+
+#upcoming .meeting .checkmark {
+    color: red;
+    border-color: red;
+}
+
+#upcoming .refresh p span {
+    background-color: #D863A1;
+}
+
+#upcoming .sales p span {
+    background-color: #B0C926;
+}
+
+#upcoming .calendar p span {
+    background-color: #45ABEA;
+}
+/* /style section UPCOMING */
+
+/* style footer */
+footer {
+    background-color: white;
+    height: 50px;
+    font-size: 13px;
+    padding: 17px 30px 17px 30px;
+}
+/* /style footer */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- /font -->
+    </head>
+
+    <body>
+        <!-- Main header -->
+        <header id="site-header">
+            <div class="logo">
+                <img src="./img/Logo.png" alt="boolean logo">
+                <h1 class="logo-txt">Toboolist</h1>
+            </div>
+        </header>
+
+        <!-- Lists container -->
+        <main id="main-container">
+            <!-- Call To Action -->
+            <section class="button-section">
+                    <button class="primary-cta">Add Task</button>
+                    <button class="secondary-cta">Add Section</button>
+            </section>
+            
+            <!-- <hr class="divisor"> CHANGED W/ border-bottom in .button-section -->
+
+            <!-- Tasks -->
+            <section class="task-container">
+                
+                <!-- New Task -->
+                <section>
+                    <h2 class="task-header">
+                        <span class="symbol">&#129171;</span>New Task
+                    </h2>
+
+                    <ul class="task-list">
+                        <li>
+                            <span class="task-done"><strong>&check;</strong></span> 
+                            Quarterly Newsletter
+                            <span class="blue-tag">Editorial</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Today -->
+                <section>
+                    <h2 class="task-header">
+                        <span class="symbol">&#129171;</span>Today
+                    </h2>
+
+                    <ul class="task-list">
+                        <li>
+                            <span class="task-done"><strong>&check;</strong></span> 
+                            Recruiting blog post
+                            <span class="blue-tag">Editorial</span>
+                        </li>
+                        <li>
+                            <span class="task-done"><strong>&check;</strong></span> 
+                            Mobile app launch
+                            <span class="purple-tag">Q1 Goals</span>
+                        </li>
+                        <li>
+                            <span class="task-fail"><strong>&#10006;</strong></span> 
+                            Interview John H.
+                            <span class="green-tag">Recruiting</span>
+                        </li>
+                        <li>
+                            <span class="task-done"><strong>&check;</strong></span> 
+                            Summit update to mobile storefronts
+                            <span class="orange-tag">Mobile</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Upcoming -->
+                <section>
+                    <!-- title -->
+                    <h2 class="task-header">
+                        <span class="symbol">&#129171;</span>Upcoming
+                    </h2>
+
+                    <!-- task content -->
+                    <ul class="task-list">
+                        <li>
+                            <span class="task-fail"><strong>&#10006;</strong></span> 
+                            Schedule meeting with Alex
+                        </li>
+                        <li>
+                            <span class="task-done"><strong>&check;</strong></span> 
+                            Homepage refresh
+                            <span class="vinaccia-tag">Website</span>
+                        </li>
+                        <li>
+                            <span class="task-done"><strong>&check;</strong></span> 
+                            Onboard new Sales team members
+                            <span class="lightgreen-tag">Sales</span>
+                        </li>
+                        <li>
+                            <span class="task-done"><strong>&check;</strong></span> 
+                            Review editorial calendar
+                            <span class="blue-tag">Editorial</span>
+                        </li>
+                    </ul>
+                    
+                </section>
+            </section>
+
+        </main>
+
+        <!-- not needed -->
+        <footer></footer>
+    </body>
+</html>

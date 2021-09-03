@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Common */
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #e4e8eb;
+}
+
+/* Utility */
+.primary-cta{
+    margin 5px;
+    padding: 0.4rem 0.6rem;
+    background-color: #5CB6F3;
+    color: white;
+    border:0;
+    border-radius: 5px;
+}
+.secondary-cta{
+    margin 5px;
+    padding: 0.3rem 0.5rem;
+    color: lightgrey;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+/* .divisor{
+    background-color: #e4e8eb;
+    border-style: solid;
+    border-color: #e4e8eb;
+} */
+.symbol{
+    display:inline-block;
+    vertical-align: -webkit-baseline-middle;
+    font-size: 2rem;
+    padding-right: .8rem;
+    /* vertical-align: text-top; */
+}
+/* ----> TAGS */
+.blue-tag{
+    margin: 5px;
+    padding: .4rem 0.7rem;
+    font-size: .6rem;
+    background-color: #5CB6F3;
+    color: white;
+    border-radius: 10px;
+}
+.purple-tag{
+    margin: 5px;
+    padding: .4rem 0.7rem;
+    font-size: .6rem;
+    background-color: #A37CE6;
+    color: white;
+    border-radius: 10px;
+}
+.vinaccia-tag{
+    margin: 5px;
+    padding: .4rem 0.7rem;
+    font-size: .6rem;
+    background-color: #DA6AA6;
+    color: white;
+    border-radius: 10px;
+}
+.green-tag{
+    margin: 5px;
+    padding: .4rem 0.7rem;
+    font-size: .6rem;
+    background-color: #6BC2AC;
+    color: white;
+    border-radius: 10px;
+}
+.orange-tag{
+    margin: 5px;
+    padding: .4rem 0.7rem;
+    font-size: .6rem;
+    background-color: #F3A33C;
+    color: white;
+    border-radius: 10px;
+}
+.lightgreen-tag{
+    margin: 5px;
+    padding: .4rem 0.7rem;
+    font-size: .6rem;
+    background-color: #B6CD36;
+    color: white;
+    border-radius: 10px;
+    vertical-align: text-bottom;
+}
+
+
+/* Header */
+#site-header{
+    background-color: white;
+}
+.logo{
+    display:flex;
+    font-weight: 900;
+    font-size: 1.8rem;
+    align-items: center;
+    padding: 15px;
+}
+.logo-txt{
+    margin-left: 1rem;
+}
+
+/* Main */
+#main-container{
+    width: 70%;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.button-section{
+    padding: 1rem 5%;
+    border-bottom:2px solid #e4e8eb;
+}
+.task-container{
+    padding: 1rem 5%;
+}
+.task-header{
+    margin: 2% 0;
+    font-size: 20px;
+    color: rgb(100, 103, 104);
+    font-weight: 900;
+    vertical-align: text-bottom;
+    
+}
+.task-list{
+    font-weight: 500;
+    /* padding: 2% 0%; */
+    color: rgb(77, 73, 73) ;
+    list-style: none;
+    line-height: 190%;
+
+}
+.task-done{
+    margin:5px;
+    padding:3px;
+    font-size: 80%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 13px;
+    color: #20c99e;
+    border: 1.5px solid;
+    border-radius: 50%;
+}
+.task-fail{
+    margin:5px;
+    font-size: 70%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 13px;
+    padding:3px;
+    color: #db4a31;
+    border: 1.5px solid;
+    border-radius: 50%;
+}
+
+
+
+/* Footer */
